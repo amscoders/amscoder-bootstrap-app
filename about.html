@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap App</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+
+  <!-- Our custom css -->
+  <link href="custom.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+ <style>
+   .img-jumbo{
+       background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('images/mobile.jpg');
+       background-size: 100% 100%;
+    }
+
+    body{
+      padding-top: 50px;
+    }
+ </style>
+</head>
+<body>
+<!-- Navbar Start -->
+<!-- For fixed navbar use "fixed-top" -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Amscoder Inc.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about_us">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="login.html">Login</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- jumbotron start -->
+<div class="jumbotron img-jumbo text-white">
+  <div class=" container-fluid">
+    <h1>About Us</h1>      
+    <p>We are developing Bootstrap applications which is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+    <button class="btn btn-primary">Life at Amscoder</button>
+  </div>   
+</div>
+<!-- About Us Section Start -->
+<section>
+  <div class="container-fluid" id="about_us">
+    <h1 class="text-center text-capitalize pt-5">about us</h1>
+    <hr class="w-25 mx-auto pb-5">
+
+  <div class="row mb-5">
+    <div class="col-lg-6 col-md-6 col-12">
+      <img src="images/homeslider1.jpg" alt="" class="img-fluid">
+    </div>
+    <div class="col-lg-6 col-md-6 col-12">
+      <h1>Who are we?</h1>
+      <hr>
+      <p>Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar.</p>
+    <a href="about.html" class="btn btn-success bg-primary">Know More</a>
+    </div>
+  </div>
+  </div>  
+</section>
+<!-- About Us Section End -->
+
+
+<!-- footer section start -->
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p class="text-center text-capitalize">&copy;all copyrights reserved | amscoder inc. &reg; 2019</p>
+</div>
+
+<!-- footer section end -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
